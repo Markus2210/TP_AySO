@@ -1,0 +1,16 @@
+el comando que se usa para hacer un 'drump traffic' es tpcdump
+PARAMETROS GENERALES
+-i: Especifica la interfaz de red a utilizar para la captura
+-n: Muestra direcciones IP y puertos en formato numerico en lugar de nombres de host y servicios
+-v: Incrementa el nivel de verbosidad de la salida
+-vv: Incremetna aun mas el nivel de verbosidad
+-q: Reduce la cantidad de informacion mostrada en la salida
+PARAMETROS DE CAPTURA
+-s: Especifica la cantidad de bytes a capturar por paquete
+-c: Especifica el numero de paquetes a capturar
+-w: Escribe la captura a un archivo
+-r: Lee una captura desde un archivo
+PARAMETROS DE FILTRADO
+-t: Muestra la hora de captura de cada paquete
+-l: Activa el modo de escucha para capturar paquetes en tiempo real
+-h: Muestra la ayuda
