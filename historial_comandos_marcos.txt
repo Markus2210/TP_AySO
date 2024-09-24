@@ -1,0 +1,307 @@
+pwd
+cd /tmp
+cd
+cd ~
+ls -la
+ls -la .ssh/
+ssh-keygen --help
+ssh-keygen -t  ed25519 
+ls -la .ssh/
+cat .ssh/id_ed25519.pub 
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:Markus2210/TP_AySO.git
+ls -l
+git status
+cd TP_AySO/
+ls -l
+git status
+touch archivo
+ls -l
+git add . 
+git status
+gti commit -m "add: primer commit"
+git commit -m "add: primer commit"
+git push
+git status
+echo hola
+echo hola > unArchivo
+ls -l
+cat unArchivo 
+ls -l
+ls -l > unArchivo 
+cat unArchivo 
+#echo hola > unArchivo
+echo hola >> unArchivo
+cat unArchivo 
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git push
+pwd
+man man
+man ls
+passwd
+man PASS
+man pass
+man passwd
+man man
+sudo apt update
+sudo apt install manpages-es manpages-es-extra
+sudo apt install manpages-es 
+man man
+cat $HOME
+cd
+mkdir repogit
+cd repogit
+ll
+cd TP_AySO/
+PWD
+pws
+pwd
+ls -l
+cat /etc/os-release
+man grep
+man grep sense
+grep HOME_URL/etc/os_release
+pwd
+ls -l
+repogit/
+cd.
+cd..
+cd ..
+pwd
+vagrant/
+cd vagrant/
+pwd
+LS -L
+ls -l
+cd repogit/
+ls -l
+TP_AySO/
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+gre -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$ Marcos ALmiron" > datos_ususario.txt
+ls -l
+rm -r datos_ususario.txt 
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 >> lista_ordenada
+cat lista_ordenada 
+git status
+git add.
+git push
+git status
+git add .
+git commit -m "ADD: Lista de Usuarios ordenada"
+echo "el comando que se usa para hacer "dump traffic" es tpcdump" >> comando_dump_net
+ls -l
+man grep -e
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git add .
+git statu
+git status 
+ls -l
+echo "-w or - write: Escribe la caputra de un archivo" >> comando_dump_net 
+echo "-s: Especifica la cantidad de bytes a capturar por paquete" >> comando_dump_net 
+echo "-c: Especifica el número de paquetes a capturar" >> comando_dump_net 
+echo "-r: Lee una captura desde un archivo" >> comando_dump_net 
+git add .
+git status
+git push
+ls -l
+cat comando_dump_net 
+git add comando_dump_net 
+git status
+git commit -m "SE AGREGO COMANDO_DUMP_NET PORQUE NO SE HABIA SUBIDO"
+git push
+ls -l
+git rm - r comando_dump_net 
+rm -r comando_dump_net 
+ls -l
+echo "el comando que se usa para hacer "dump traffic" es tpcdump" >> comando_dump_net
+ls -l
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git add .
+echo "PARAMETROS GENERALES" >> comando_dump_net
+ECHO 2
+echo "-i: Especifica la interfaz de red a utilizar para la captura" >> comando_dump_net
+echo 
+echo "-n: Muestra direcciones IP y puertos en formato numérico en lugar de nombres de host y servicios." >> comando_dump_net
+echo "-v: Incremeta el nivel de verbosidad." >> comando_dump_net
+echo "-q: Reduce la cantidad de información mostrada en la salida." >> comando_dump_net
+echo "PARAMETROS DE CAPTURA" >> comando_dump_net
+ECHO 
+echo "-s: Especifica la cantidad de bytes a capturar por paquete." >> comando_dump_net
+echo "-c:Especifica el número de paquetes a capturar." >> comando_dump_net
+echo 
+echo "-w: Escribe la captura a un archivo." >> comando_dump_net
+echo "-r: Lee una captura desde un archivo." >> comando_dump_net
+echo 
+echo "PARAMETROS DE FILTRADO" >> comando_dump_net
+echo "-p: Filtra por protocolo (por ejemplo, tcp, udp,icmp)." >> comando_dump_net
+echo "-s: Filtra por dirección de IP de origen." >> comando_dump_net
+echo "-d: Filtra por dirección de destino." >> comando_dump_net
+echo "-P: Filtra por número de puerto." >> comando_dump_net
+echo "OTROS PARAMETROS" >> comando_dump_net
+echo "-t: Muestra la hora de captura de cada paquete." >> comando_dump_net
+echo "-l: Activa el modo de escucha para capturar paquetes en tiempo real." >> comando_dump_net
+echo 
+echo "-h: Muestra la ayuda." >> comando_dump_net
+git add .
+git push
+git add comando_dump_net 
+git push
+ls -l
+cat comando_dump_net 
+git commit -m "Lista de comandos"
+git add .
+git push
+cat -n1 comando_dump_net 
+cat -l1 comando_dump_net 
+cat << EOF >> README.md 
+
+Alumno: <Marcos-Almiron>
+División: <318>
+Turno: <Noche>
+
+EOF
+
+git add .
+git commit -m "docs: Se agrego datos del alumno"
+git push
+vim comando_dump_net 
+git add .
+git commit -m "docs: modifique comandos"
+git push
+cd
+history -a
+pwd
+ls -l
+cd repogit/
+ls
+cd TP_AySO/
+cp. bash_history >> historial_comandos_marcos.txt
+git add .
+git commit -m "docs: Historial de comandos usados"
+git push
+history -a
+cp. bash_history >> historial_comandos_marcos.txt
+git add .
+git commit -m "docs:modifique"
+git push
+cd
+history -a
+ls
+cd repogit/
+ls
+cd TP_AySO/
+cp .bash_history >> historial_comandos_marcos.txt
+CP --HELP
+cp --help
+cd
+pwd
+cd ..
+cat .bash_history
+ls
+cd vagrant/
+cat history -a
+cd repogit/TP_AySO/
+history -a
+man cp
+cp .bash_history >> historial_comandos_marcos.txt 
+history -a 
+history -a $HOME/.bash_history >> historial_comandos_marcos.txt 
+git add .
+git commit -m "docs: modifique"
+git push
+cat historial_comandos_marcos.txt 
+vagrant hult
+pwd
+cd repogit/
+ls -l
+rm -r TP_AySO/
+pwd
+cd repogit/TP_AySO/
+ls
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+echo  "el comando que se usa para hacer un 'drump traffic' es tpcdump" >> comando_dump_net
+ls -l
+echo "PARAMETROS GENERALES" >> comando_dump_net 
+echo "-i: Especifica la interfaz de red a utilizar para la captura" >> comando_dump_net 
+echo "-n: Muestra direcciones IP y puertos en formato numerico en lugar de nombres de host y servicios" >> comando_dump_net 
+echo "-v: Incrementa el nivel de verbosidad de la salida" >> comando_dump_net 
+echo "-vv: Incremetna aun mas el nivel de verbosidad" >> comando_dump_net 
+echo "-q: Reduce la cantidad de informacion mostrada en la salida" >> comando_dump_net 
+echo "PARAMETROS DE CAPTURA" >> comando_dump_net 
+echo "-s: Especifica la cantidad de bytes a capturar por paquete" >> comando_dump_net 
+echo "-c: Especifica el numero de paquetes a capturar" >> comando_dump_net 
+echo "-w: Escribe la captura a un archivo" >> comando_dump_net 
+echo "-r: Lee una captura desde un archivo" >> comando_dump_net 
+echo "PARAMETROS DE FILTRADO" >> comando_dump_net 
+echo "-t: Muestra la hora de captura de cada paquete" >> comando_dump_net 
+echo "-l: Activa el modo de escucha para capturar paquetes en tiempo real" >> comando_dump_net 
+echo "-h: Muestra la ayuda" >> comando_dump_net 
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat << EOF >> README.md 
+Alumno: Marcos Almiron <br>
+Division: 318 <br>
+Turno: <Noche>
+
+EOF
+
+git add .
+git commit -m "docs: Agregue informacion al Readme"
+history -a
+cp ~/.bash_history /.historial_comandos_marcos.txt
+cp ~/.bash_history >> historial_comandos_marcos.txt
+man cp
+ls
+la -l
+cp~/.bash_history >> historial_comandos_marcos.txt
+cp ~/.bash_history >> historial_comandos_marcos.txt
+cp /.bash_history >> historial_comandos_marcos.txt
+cat README.md 
+cat << EOF >> README.md 
+EOF
+
+cat << EOF >> README.md
+#TP_AySO
+cat << EOF >> README.md
+#TP_AySO
+
+EOF
+
+cat << EOF > README.md 
+#TP_AySO
+Alumno: Marcos Almiron <br>
+Division: 318
+EOF
+
+cat << EOF > README.md 
+#TP_AySO
+Alumno: Marcos Almiron <br>
+Division: 318 <br>
+Turno: Noche <br>
+EOF
+
+git add .
+git commit -m "docs: Modificacion de texto al archivo README.md"
+history -a
